@@ -1,1 +1,40 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #0d47a1;
+}
+
+.anio {
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.ramo {
+  background-color: #bbdefb;
+  border: 2px solid #90caf9;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  user-select: none;
+}
+
+.ramo.aprobado {
+  background-color: #4fc3f7;
+  color: white;
+  border-color: #0288d1;
+}
 
