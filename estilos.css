@@ -1,13 +1,14 @@
 /* styles.css */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #e3f2fd;
+  background-color: #e0f7fa;
   margin: 0;
   padding: 2rem;
+  color: #01579b;
 }
 
 h1, h2 {
-  color: #0d47a1;
+  color: #0277bd;
 }
 
 .anio {
@@ -21,20 +22,25 @@ h1, h2 {
 }
 
 .ramo {
-  background-color: #bbdefb;
-  border: 2px solid #90caf9;
+  background-color: #b3e5fc;
+  border: 2px solid #4fc3f7;
   padding: 1rem;
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   user-select: none;
+  font-weight: 500;
+  color: #01579b;
+}
+
+.ramo:hover {
+  transform: scale(1.03);
 }
 
 .ramo.aprobado {
-  background-color: #4fc3f7;
+  background-color: #0288d1;
   color: white;
-  border-color: #0288d1;
+  border-color: #01579b;
 }
-
